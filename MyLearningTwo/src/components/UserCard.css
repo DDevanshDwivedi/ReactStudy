@@ -1,0 +1,20 @@
+.user-container {
+    background-color: rgb(232, 232, 232);
+    padding: 10px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+
+}
+
+#user-img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-color: rgb(25, 25, 214);
+    border-style: groove;
+    border-radius: 50%;
+}
